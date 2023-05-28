@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 110px;
+   margin-bottom:20px;   
+}
+.account{
+    font-size: 34px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    color: 	#585858;
+    font-weight: light 100;
+}
+.continue{
+    font-size: 18px;
+    font-family: lato;
+    margin-bottom: 12px;
+    color: 	#585858;
+    font-weight: 400;
+    
+}
+.container{
+    width: 295px;
+    margin-top: 2px;
+    height: 300px;
+    margin-bottom: 170px;
+    border-style: outset;
+    border-top: 3px solid #f9f6f6;
+    border-left: 1px solid 	#E0E0E0;
+    border-right: 1px solid 	#E0E0E0;
+    border-bottom: 2px solid 	#b8b2b2;
+   background-color: 	#F8F8F8;
+   border-radius: 2px;
+   text-align: center;
+ 
+}
+.container img{
+    margin-top: 7px;
+    margin-bottom: 2px;
+    width: 148px;  
+}
+.container .inputbox{
+    position: relative;
+}
+.container .inputbox input{
+    margin-top: 7px;
+    width:79%;
+    height: 34px;
+    border-style: solid;
+    border-color:#E0E0E0;
+    border-width: 1px;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 7px;
+    font-weight: lighter;
+    color:#cdd5db;
+}
+.container input[type="submit"]{
+    border:1px solid #1e86c7;
+    color:#fff;
+    background-color: 	#058dee;
+    font-size: 12px;
+    width: 79%;
+    height:28px;
+    padding: 7px;
+    border-radius: 2.5px;
+    margin-top: 7px;
+
+}
+.container input[type="checkbox"]{
+    margin-top:8px;
+    margin-bottom: 45px;
+    margin-left: 0px;
+    border-radius: 0;
+}
+.container label{
+    font-size:13px;
+    margin-left: -1px;
+   
+}
+.container a{
+    text-decoration: none;
+    color:#3677bc;
+    font-size: 13px;
+    margin-left: 75px;
+}
+
+.container .foot a{
+    text-decoration: none;
+    color:#3677bc;
+    font-size: 14px;
+    margin-left: 2px; 
+    
+    
+}
+.container .foot p{
+    font-size: 14px;  
+    color: #82868a;
+    margin-top: 45px;
+   
+
+}
+.container .foot .img1{
+    width: 13px;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+.container .foot .img2{
+    width: 16px;
+    margin-left: 8px;
+}
+.container .foot .img3{
+    width: 14px;
+    margin-left: 11px;
+}
+.container .foot .img4{
+    width: 15.5px;
+    margin-left: 12px;
+}
+.container .foot .img5{
+    width: 15px;
+    margin-left: 8px;
+}
+.container .foot .img6{
+    width: 15px;
+    margin-left: 8px;
+}
+.container .foot .img7{
+    width: 14px;
+    margin-left: 10px;
+}
+
+
